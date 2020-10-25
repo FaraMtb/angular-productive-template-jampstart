@@ -1,27 +1,40 @@
-# Medvikapp
+# Angular Productive JumpStart with TypeScript
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+The goal of this jumpstart app is to provide
+a simple way to get started with Angular 2+ while also showing several key Angular features. The sample
+relies on the Angular CLI to build the application.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Angular Concepts Covered
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* TypeScript version that relies on classes and modules
+* Modules are loaded with System.js
+* Defining routes including child routes and lazy loaded routes
+* Using Custom Components including custom input and output properties
+* Using Custom Directives
+* Using Custom Pipes
+* Defining Properties and Using Events in Components/Directives
+* Using the Http object for Ajax calls along with RxJS observables
+* Working with Utility and Service classes (such as for sorting and Ajax calls)
+* Using Angular databinding Syntax [], () and [()]
+* Using template-driven and reactive forms functionality for capturing and validating data
+* Optional: Webpack functionality is available for module loading and more (see below for details)
+* Optional: Ahead-of-Time (AOT) functionality is available for a production build of the project (see below for details)
 
-## Build
+## Running the Application 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+1. Run `npm install` to install app dependencies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Run `ng build --watch` to build and bundle the code
 
-## Running end-to-end tests
+1. Run `npm start` in a separate terminal window to build the TypeScript, watch for changes and launch the web server
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. Go to http://localhost:4200 in your browser 
 
-## Further help
+Simply clone the project or download and extract the .zip to get started. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Once the app is running you can play around with editing customers after you login. Use any email address and any password that's at least 6 characters long (with 1 digit).
+
+
